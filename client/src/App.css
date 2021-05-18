@@ -441,3 +441,23 @@ table th {
     justify-content: center;
   }
 }
+
+input[type='text'],
+input[type='email'],
+input[type='password'],
+input[type='date'],
+select,
+textarea {
+  font-family: 'Dosis', sans-serif;
+  font-size: 1rem;
+  font-weight: 800;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #333;
+}
+
+input[type='text']:focus,
+input[type='email']:focus,
+input[type='password']:focus {
+  outline: none;
+}
