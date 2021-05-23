@@ -14,7 +14,7 @@ const ContactForm = () => {
         name: '',
         email: '',
         phone: '',
-        type: 'personal',
+        type: 'male',
       });
     }
   }, [contactContext, current]);
@@ -23,7 +23,7 @@ const ContactForm = () => {
     name: '',
     email: '',
     phone: '',
-    type: 'personal',
+    type: 'male',
   });
 
   const { name, email, phone, type } = contact;
@@ -78,19 +78,19 @@ const ContactForm = () => {
       <input
         type='radio'
         name='type'
-        value='personal'
-        checked={type === 'personal'}
+        value='male'
+        checked={type === 'male'}
         onChange={onChange}
       />{' '}
-      Personal{' '}
+      Male{' '}
       <input
         type='radio'
         name='type'
-        value='professional'
-        checked={type === 'professional'}
+        value='female'
+        checked={type === 'female'}
         onChange={onChange}
       />{' '}
-      Professional
+      Female
       <div>
         <input
           type='submit'
