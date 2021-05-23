@@ -400,6 +400,17 @@ table th {
   opacity: 0;
   transition: opacity 1000ms ease-in;
 }
+.loading {
+  width: 100%;
+  height: auto;
+  max-height: 425px;
+  overflow: hidden;
+  background-color: white;
+}
+img.loading-img {
+  width: inherit !important;
+  height: auto !important;
+}
 
 /* Mobile Styles */
 @media (max-width: 700px) {
