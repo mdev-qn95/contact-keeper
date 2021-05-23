@@ -6,7 +6,7 @@ const ContactFilter = () => {
 
   const text = useRef('');
 
-  const { filterContacts, clearFilter, filtered } = contactContext;
+  const { filtered } = contactContext;
 
   useEffect(() => {
     if (!filtered) {
