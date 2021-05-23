@@ -7,9 +7,10 @@ const About = () => {
       <p className='my-1'>
         This is a full stack React app for keeping contacts.
       </p>
-      <p className='bg-dark p'>
-        <strong>Version: </strong> 1.8.2
-      </p>
+      <p>Auth: THAI VAN PHU</p>
+      <p>Email: thaivanphu.qn95@gmail.com</p>
+      <p>Mobile: 096 246 1876</p>
+      <p className='my-1'>Version: 1.8.2</p>
     </div>
   );
 };
